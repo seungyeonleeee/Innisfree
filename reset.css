@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: normal 1.4rem/1 "Kumbh Sans", sans-serif;
+  color: var(--font-color);
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+input {
+  border: none;
+  background: transparent;
+  &:focus {
+    outline: none;
+  }
+}
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
